@@ -76,18 +76,30 @@ body.webkit.loaded .name-unread {
   font-style: normal !important;
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
 }
+/*body.webkit.loaded li.tree-selected,*/
+body.webkit.loaded a.tree-link-selected {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: #f0f0f0;
+  -webkit-box-shadow: -1px 0px 4px #aaa inset;
+}
+body.webkit.loaded a.tree-link-selected:hover {
 
+}
+body.webkit.loaded a.tree-link-selected .name-unread {
+  font-weight: bold !important;
+}
 body.webkit.loaded .entry-main {
   margin-left: 7px !important;
 }
 
 body.webkit.loaded .entry {
   -webkit-transition-property: -webkit-transform, opacity !important;
-  -webkit-transition-timing-function: cubic-bezier(0.51, 0.01, 0.37, 0.98) !important;
+  -webkit-transition-timing-function: cubic-bezier(0.51, 0.01, 0.37, 0.99) !important;
   -webkit-transition-duration: 250ms !important;
-  -webkit-transform: scale(.98) !important;
-  -moz-transition: all 250ms cubic-bezier(0.51, 0.01, 0.37, 0.98) 0s !important;
-  -moz-transform: scale(.98) !important;
+  -webkit-transform: scale(.99) !important;
+  -moz-transition: all 250ms cubic-bezier(0.51, 0.01, 0.37, 0.99) 0s !important;
+  -moz-transform: scale(.99) !important;
   opacity: .8 !important;
 }
 

@@ -1,8 +1,12 @@
+/* Hide some unused sidebar links */
 body.webkit.loaded #overview-selector,
 body.webkit.loaded #reading-list-selector,
 body.webkit.loaded #nav #home-section {
   display: none !important;
 }
+
+/* Make the top tool bars lest wasteful of vertical space */
+
 body.webkit.loaded #top-bar {
   height: 24px !important;
 }
@@ -54,13 +58,8 @@ body.webkit.loaded #nav #scrollable-sections-holder {
   border-right: 1px solid #ebebeb !important;
 }
 
-/* Entry Titles */
-body.webkit.loaded .entry-title-link {
-  font: 20px HelveticaNeue-Light, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
-  color: #384f83 !important;
-}
 
-/* Post Actions Toolbar */
+/* Post Actions Toolbar slimming */
 body.webkit.loaded .card-actions.card-bottom {
   padding: 0 0 3px !important;
 }
@@ -69,7 +68,7 @@ body.webkit.loaded .card-actions.card-bottom span.item-star {
   margin-top: 2px !important;
 }
 
-/* Article display and animation via Arlo */
+/* Article display and animation via @Arlo */
 
 body.webkit.loaded .name-unread {
   text-decoration: none !important;
@@ -96,4 +95,9 @@ body.webkit.loaded #current-entry{
   -webkit-transform: scale(1) !important;
   -moz-transform: scale(1) !important;
   opacity: 1 !important;
+}
+/* Entry Titles via @Arlo */
+body.webkit.loaded .entry-title-link {
+  font: 20px HelveticaNeue-Light, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
+  color: #384f83 !important;
 }

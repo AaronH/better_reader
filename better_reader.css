@@ -1,0 +1,66 @@
+body.webkit.loaded #overview-selector,
+body.webkit.loaded #reading-list-selector,
+body.webkit.loaded #nav #home-section {
+  display: none !important;
+}
+body.webkit.loaded #top-bar {
+  height: 24px !important;
+}
+body.webkit.loaded #top-bar #search {
+  padding: 2px 0 0 !important;
+}
+body.webkit.loaded #top-bar #search .jfk-textinput{
+  height: 15px !important;
+  font-size: 13px !important;
+  padding: 1px 2px !important;
+}
+body.webkit.loaded #top-bar #logo {
+  margin-top:-13px !important;
+  height: 25px !important;
+}
+
+body.webkit.loaded #chrome-viewer #viewer-header #viewer-top-controls-container,
+body.webkit.loaded #lhn-add-subscription-section #lhn-add-subscription {
+  margin-top: -8px !important;
+}
+
+body.webkit.loaded #chrome-viewer #viewer-header,
+body.webkit.loaded #nav #lhn-add-subscription-section {
+  height: 24px !important;
+}
+body.webkit.loaded #chrome-viewer #viewer-header .goog-inline-block,
+body.webkit.loaded #lhn-add-subscription-section #lhn-add-subscription,
+body.webkit.loaded #top-bar .goog-inline-block {
+  height: 15px !important;
+  line-height: 15px !important;
+}
+body.webkit.loaded #chrome-viewer #viewer-header .goog-inline-block .goog-button-base-content {
+  padding-top: 0 !important;
+  background-position: -5px 0 !important;
+}
+body.webkit.loaded #chrome-viewer #viewer-header .goog-menu-button-dropdown,
+body.webkit.loaded #chrome-viewer #viewer-header .goog-flat-menu-button-dropdown,
+body.webkit.loaded #top-bar .goog-inline-block .goog-flat-menu-button-dropdown {
+  top: 5px !important;
+}
+
+body.webkit.loaded .card-actions.card-bottom {
+  padding: 0 0 3px !important;
+}
+body.webkit.loaded .card-actions.card-bottom span.item-star {
+  padding: 0 8px 0 16px !important;
+  margin-top: 2px !important;
+}
+body.webkit.loaded .entry-title-link {
+  font: 20px HelveticaNeue-Light, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif !important;
+  color: #384f83 !important;
+}
+body.webkit.loaded #nav #scrollable-sections-holder,
+body.webkit.loaded #nav #scrollable-sections-holder li,
+body.webkit.loaded #nav #scrollable-sections-holder .lhn-section-primary {
+  background: #fafafa !important;
+  margin: 0 !important;
+}
+body.webkit.loaded #nav #scrollable-sections-holder {
+  border-right: 1px solid #ebebeb !important;
+}

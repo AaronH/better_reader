@@ -1,7 +1,7 @@
 Better Reader
 =============
-_Aaron Hurley_
-_[GitHub Project](https://github.com/AaronH/better_reader)
+_Aaron Hurley
+[GitHub Project](https://github.com/AaronH/better_reader)_
 
 
 A simple stylesheet to improve the usability of Google's most recent update to Google Reader.

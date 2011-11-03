@@ -1,13 +1,16 @@
-* Better Reader *
+Better Reader
+=============
 _Aaron Hurley_
 
 
-A simple stylesheet to improve the usability of Google's most recent update to Google Reader. 
+A simple stylesheet to improve the usability of Google's most recent update to Google Reader.
 
-h2. Install
+Install
+-------
 Download and select as a user style sheet in Safari's Advanced preferences tab.
 
-h3. Features
+Features
+--------
 * Shrinks wasted space around search box and subscription buttons
 * Removes a couple of sidebar links
 * Tweaks article headings
